@@ -1,0 +1,7 @@
+---
+applications:
+  - name: cf-zdt-demo
+    path: target/cf-zdt-demo.jar
+    random-route: true
+    buildpacks:
+      - https://github.com/cloudfoundry/java-buildpack.git
